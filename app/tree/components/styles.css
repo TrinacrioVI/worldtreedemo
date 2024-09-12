@@ -1,0 +1,87 @@
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    top: 0;
+    font-family: 'Pacifico', cursive; 
+    font-size: 36px;
+    background: linear-gradient(to bottom, rgba(0, 128, 0, 1), rgba(0, 64, 0, 1));
+    color: rgb(248, 245, 233);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.3);
+    z-index: 4;
+    width: 100%;
+    height: 60px;
+}
+.searchbar{
+    background-color: black;
+    color: white;
+    margin: 4px;
+    font-family: 'Times'; 
+    font-size: 18px;
+    min-width: 120px;
+    border: 2px solid gray;
+}
+
+.icon_button:hover {
+    background: linear-gradient(to bottom, rgba(53, 76, 53, 0.8), rgba(0, 5, 0, 0.8));
+    font-size: 24px;
+    color: goldenrod;
+    box-shadow: 0 0 60px rgba(0, 255, 255, 0.7),
+                0 0 40px rgba(0, 255, 255, 0.5),
+                0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+.header_button {
+    font-family: 'Bodoni'; 
+    margin: 4px;
+    padding: 4px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1.2;
+    background: linear-gradient(to bottom, rgba(192, 240, 192, 0.8), rgba(3, 115, 3, 0.8));
+    color: #ddf6c1;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.header_button:hover {
+    background: linear-gradient(to bottom, rgba(53, 76, 53, 0.8), rgba(0, 5, 0, 0.8));
+    font-size: 24px;
+    color: goldenrod;
+    box-shadow: 0 0 60px rgba(0, 255, 255, 0.7),
+                0 0 40px rgba(0, 255, 255, 0.5),
+                0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+.sidebar{
+    top: 60px;
+    position: fixed;
+    background-color: rgb(85, 69, 19);
+    left: 0;
+    width: 180px;
+    min-height: 100vh;
+    z-index: 3;
+}
+.sidebar_folder_title {
+    font-size: 24px;
+    background-color: rgb(135, 231, 164);
+    color: rgb(3, 56, 45)
+}
+
+.folder_holder{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_sidebar{
+    top: 80px;
+    position: fixed;
+    background-color: rgb(85, 69, 19);
+    left: 160;
+    width: 180px;
+    min-height: 100vh;
+    z-index: 3;
+}

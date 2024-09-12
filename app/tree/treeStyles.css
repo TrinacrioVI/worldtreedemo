@@ -1,0 +1,11 @@
+.page_content{
+    background-color: rgb(2, 40, 24);
+    color: wheat;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
